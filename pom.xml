@@ -16,6 +16,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>repsy</id>
+            <name>repository</name>
+            <url>https://repo.repsy.io/mvn/plyshaa/banner</url>
+        </repository>
+    </distributionManagement>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
